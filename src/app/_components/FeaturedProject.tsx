@@ -40,9 +40,11 @@ export default function FeaturedProject() {
           GitHub
         </a>
       </div>
-      <div className="mt-8 h-[300px] bg-gray-200 flex items-center justify-center">
-        demo screenshot
-      </div>
+      <img
+        src="/sonix-preview.png"
+        alt="Sonix app screenshot"
+        className="w-full rounded-lg"
+      />
     </section>
   );
 }
