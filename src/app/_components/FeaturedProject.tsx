@@ -2,11 +2,16 @@ export default function FeaturedProject() {
   return (
     <section id="featured" className="px-6 py-12">
       <h2 className="text-3xl">Sonix</h2>
-      <p className="mt-1">Real-time audio file management API</p>
+      <p className="mt-1">Real-time audio visualizer with WebGL shaders</p>
       <p className="mt-4">
-        Sonix is a backend service built for handling large audio uploads, user
-        authentication with JWT, and efficient storage and retrieval using
-        MongoDB&apos;s GridFS.
+        Full-stack web app where users log in, connect a microphone, and watch
+        reactive GLSL shaders respond to live audio. Includes a searchable visual
+        library with tags, pagination, and personal collections.
+      </p>
+      <p className="mt-4">
+        Sole backend engineer — built the entire Node.js/Express/MongoDB API:
+        JWT auth, visualizer API with search and pagination, GridFS image
+        storage, rate limiting, and integration tests.
       </p>
       <div className="flex flex-wrap gap-2 mt-6">
         <span className="px-3 py-1 border text-sm">Node.js</span>
