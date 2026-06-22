@@ -4,7 +4,7 @@ export default function Header() {
       <div>Dinar Ibragimov</div>
       <nav className="flex gap-6">
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
+        <a href="#featured">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
