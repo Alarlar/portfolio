@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="px-6 py-12">
+    <section id="about" className="px-6 pt-6 pb-12">
       <h2 className="text-3xl">About</h2>
       <p className="mt-4">
         Backend engineer with an unconventional path, I spent years doing
