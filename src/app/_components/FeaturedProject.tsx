@@ -23,8 +23,22 @@ export default function FeaturedProject() {
         <span className="px-3 py-1 border text-sm">Vitest</span>
       </div>
       <div className="flex gap-4 mt-6">
-        <a href="#" className="px-5 py-2 border">Live Demo</a>
-        <a href="#" className="px-5 py-2 border">GitHub</a>
+        <a
+          href="https://l-group-practicum-team6.onrender.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-5 py-2 border"
+        >
+          Live Demo
+        </a>
+        <a
+          href="https://github.com/Code-the-Dream-School/l-group-practicum-team6"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-5 py-2 border"
+        >
+          GitHub
+        </a>
       </div>
       <div className="mt-8 h-[300px] bg-gray-200 flex items-center justify-center">
         demo screenshot
