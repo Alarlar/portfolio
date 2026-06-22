@@ -1,6 +1,6 @@
 export default function ProjectsGrid() {
   return (
-    <section>
+    <section id="projects">
       <h2>ProjectsGrid</h2>
     </section>
   );
