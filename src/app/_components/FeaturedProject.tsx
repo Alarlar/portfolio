@@ -1,6 +1,6 @@
 export default function FeaturedProject() {
   return (
-    <section id="featured" className="px-6 pt-4 pb-12">
+    <section id="featured" className="px-6 pt-2 pb-12">
       <h2 className="text-3xl">Sonix</h2>
       <p className="mt-1">Real-time audio visualizer with WebGL shaders</p>
       <p className="mt-4">
