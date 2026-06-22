@@ -43,7 +43,7 @@ export default function FeaturedProject() {
       <img
         src="/sonix-preview.png"
         alt="Sonix app screenshot"
-        className="w-full rounded-lg"
+        className="mt-6 w-full rounded-lg"
       />
     </section>
   );
