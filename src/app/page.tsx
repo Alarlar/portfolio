@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="max-w-3xl mx-auto px-6 flex flex-col gap-16">
+      <div className="max-w-5xl mx-auto px-8 flex flex-col gap-16">
         <Hero />
         <FeaturedProject />
         <About />
