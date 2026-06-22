@@ -8,10 +8,12 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Hero />
-      <FeaturedProject />
-      <About />
-      <Contact />
+      <div className="max-w-3xl mx-auto px-6">
+        <Hero />
+        <FeaturedProject />
+        <About />
+        <Contact />
+      </div>
     </>
   );
 }
